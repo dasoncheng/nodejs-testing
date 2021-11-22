@@ -1,0 +1,12 @@
+{
+  "preset": "ts-jest",
+  "testEnvironment": "node",
+  "transform": {
+    "^.+\\.(ts|tsx)$": "ts-jest"
+  },
+  "globals": {},
+  "testMatch": ["**/*.spec.ts"],
+  "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json"],
+  "coverageDirectory": ".coverage",
+  "collectCoverage": true
+}

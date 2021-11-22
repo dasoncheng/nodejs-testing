@@ -1,0 +1,6 @@
+.husky/
+.coverage/
+node_modules/
+dist/
+
+LICENSE
