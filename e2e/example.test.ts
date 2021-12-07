@@ -1,7 +1,7 @@
 import { expect, test } from "@playwright/test";
 
 test("basic test", async ({ page }) => {
-  await page.goto("https://playwright.dev/");
-  const title = page.locator(".navbar__inner .navbar__title");
-  await expect(title).toHaveText("Playwright");
+  await page.goto("https://juejin.cn/");
+  const title = page.locator("title");
+  await expect(title).toContainText("掘金");
 });
